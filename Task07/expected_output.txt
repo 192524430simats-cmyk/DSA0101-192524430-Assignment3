@@ -1,0 +1,5 @@
+PREDICTION ONLY - not executed
+Series RLC: 10.00 - j5.00 ohm, |Z|=11.18 ohm
+Parallel R-L: 2.00 + j4.00 ohm
+Safe error: division by zero impedance
+
