@@ -49,7 +49,7 @@ The added carry case predicts `Rs 1.25`; subtraction predicts `-Rs 1.00`. Intege
 
 ## Q5 - Increment, comparison and subscript
 
-`Task05/main.cpp` uses the dummy `int` parameter to distinguish postfix `operator++(int)` from prefix `operator++()`. Prefix updates and returns a reference. Postfix saves and returns the prior value, so it requires a copy for class types. Checked `operator[]` has const and mutable overloads; both throw `std::out_of_range` for invalid indices. An index of `-1` converts to a large unsigned value and is rejected by the range check.
+`Task05/main.cpp` uses the dummy `int` parameter to distinguish postfix `operator++(int)` from prefix `operator++()`. Prefix updates and returns a reference. Postfix saves and returns the prior value, so it requires a copy for class types. Checked `operator[]` has const and mutable overloads; both throw `std::out_of_range` for invalid indices. An index of `-1` converts to a large unsigned value and is rejected by the range check. Formatting 3,599 elapsed seconds and incrementing once gives the expected `01:00:00` rollover.
 
 For the supplied Counter code, prediction is `5 7 7`: `a` receives the old value 5, then prefix increments the counter to 7 and `b` receives 7. Prefix avoids the old-value copy. Playlist access and its check are both O(1); measure the comparison cost over 10,000,000 accesses rather than assuming a machine-specific duration. The included simulation exercises invalid access; exhaustive rollover and -O0/-O2 timings remain to be run.
 
