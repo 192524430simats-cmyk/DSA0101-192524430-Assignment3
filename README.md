@@ -36,11 +36,11 @@ GitHub repository: https://github.com/192524430simats-cmyk/DSA0101-192524430-Ass
 
 ## Commit history
 
-The assignment requests progressive commits, one per task. Create them after adding each task's reviewed source and execution evidence, for example:
+The remote repository now has progressive commits covering Tasks 1-7. The connected GitHub integration created the repository commits because this shell had no GitHub credentials. The local checkout also has one commit per task. These commits include source and predicted output files; they do not imply the C++ programs were executed.
 
 ```sh
 git add Task01 && git commit -m "Complete Task 1 constructors"
 ```
 
-Repeat for Tasks 2-7. No commit is represented as an observed historical commit unless it is present in `git log`.
+The local history is visible with `git log --oneline`.
 
