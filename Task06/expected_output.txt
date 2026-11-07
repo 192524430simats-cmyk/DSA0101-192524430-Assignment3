@@ -1,0 +1,5 @@
+PREDICTION ONLY - not executed
+Hello from C++
+empty=[] long=A deliberately longer SMS message for copy and concatenation checks. self=Hello 
+true true
+
