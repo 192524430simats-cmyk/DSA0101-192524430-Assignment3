@@ -2,7 +2,7 @@
 
 **Student:** Mohamed Haarun M.H  
 **Register number:** 192524430  
-**Compiler:** Pending execution on a system with GCC; recommended g++ 13 or newer  
+**Compiler used for syntax checks:** Zig 0.17.1 (bundled Clang 22.1.8); GCC execution still pending  
 **Standard:** C++17
 
 ## Compile and run
@@ -30,7 +30,7 @@ Replace `Task01` / `task01` with `Task02` / `task02` through `Task07` / `task07`
 
 ## Evidence status
 
-The provided GitHub repository was empty when fetched. This checkout now contains the seven task programs and an explanatory report at `REPORT.md`. The current execution environment does not expose `g++`, `clang++`, or `cl`, so no C++ run, compiler diagnostic, sanitizer log, timing measurement, or genuine output screenshot is claimed here. `evidence/` is reserved for screenshots and logs after execution with a C++17 compiler. The output text in the report is a source-level prediction and must be checked against actual runs before submission.
+The provided GitHub repository was empty when fetched. This checkout now contains the seven task programs and an explanatory report at `REPORT.md`. No `g++` or MSVC installation is available. Portable Zig 0.17.1 bundled Clang 22.1.8 was used for C++17 syntax-only checks of all source files; this did not create runnable executables. Therefore no program run, sanitizer log, timing measurement, or genuine output screenshot is claimed here. `evidence/` is reserved for screenshots and logs after full execution with a C++17 compiler. The output text in the report is a source-level prediction and must be checked against actual runs before submission.
 
 GitHub repository: https://github.com/192524430simats-cmyk/DSA0101-192524430-Assignment3
 
