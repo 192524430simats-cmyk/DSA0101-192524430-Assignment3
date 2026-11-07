@@ -1,0 +1,12 @@
+PREDICTION ONLY - not executed
+Event opened 2x3
+stack booked=1
+Event opened 1x2
+Event closed 1x2
+Event opened 1x1
+Event closed 1x1
+Event opened 0x5
+zero-row booking=0
+Event closed 0x5
+Event closed 2x3
+
