@@ -1,0 +1,6 @@
+PREDICTION ONLY - not executed
+Untitled | Unknown | copies=0
+The Hobbit | Unknown | copies=1
+Dune | Frank Herbert | copies=4
+Rejected: copies cannot be negative
+
