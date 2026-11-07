@@ -1,0 +1,6 @@
+PREDICTION ONLY - not executed
+Rs 200.00
+true
+Rs 1.25
+-Rs 1.00
+
