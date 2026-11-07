@@ -1,5 +1,6 @@
 PREDICTION ONLY - not executed
 5 7 7
+Rollover: 01:00:00
 Now playing: Song
 Invalid playlist index
 
