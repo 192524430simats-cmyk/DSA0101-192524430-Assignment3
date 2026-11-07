@@ -3,10 +3,11 @@
 **Student:** Mohamed Haarun M.H  
 **Register number:** 192524430  
 **Repository:** https://github.com/192524430simats-cmyk/DSA0101-192524430-Assignment3  
-**Compiler / version:** Not available in the current environment; execution evidence is pending.  
-**Build flags:** Intended: `g++ -std=c++17 -Wall -Wextra -Wpedantic`.
+**Compiler / version:** Zig 0.17.1, bundled Clang 22.1.8, used for syntax-only checks; full linking/running remains pending.  
+**Syntax-check command:** `zig c++ -std=c++17 -Wall -Wextra -Wpedantic -fsyntax-only <source.cpp>`  
+**Intended build flags:** `g++ -std=c++17 -Wall -Wextra -Wpedantic`.
 
-> Execution integrity: The output listings below are predictions derived from the source. They are not claimed as captured program output. Compiler warnings, sanitizer output, benchmark values, and screenshots must be generated on an installed C++ compiler before final submission.
+> Execution integrity: All source files received a C++17 syntax-only check with bundled Clang. The environment did not produce a runnable executable, so output listings below are predictions derived from source and are not captured program output. Sanitizer output, benchmark values, and screenshots must be generated on a full C++ toolchain before final submission.
 
 ## Q1 - Constructors
 
